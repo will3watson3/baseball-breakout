@@ -1,0 +1,26 @@
+{
+  "medians": {
+    "pa_delta": 0.0,
+    "attack_angle_delta": 0.0,
+    "attack_angle_toward_opt_delta": 0.0,
+    "barrels_per_bbe_percent_delta": 0.10660604810190136,
+    "barrels_per_pa_delta": 0.0945741425319174,
+    "barrels_per_swing_delta": 0.08565636096356455,
+    "bat_speed_delta": 0.0,
+    "bb_k_ratio_delta": 0.08654569327537134,
+    "bb_per_pa_delta": 0.08788284963851095,
+    "contact_per_pa_delta": -0.0569576876114408,
+    "contact_rate_delta": -0.0053533367808764,
+    "hardhit_per_pa_delta": 0.1107463757313415,
+    "hardhit_percent_delta": 0.08280538866236434,
+    "k_per_pa_delta": 0.0418022306860331,
+    "launch_speed_delta": 0.1275126368006811,
+    "power_index_per_pa_delta": 0.10643073172544965,
+    "rate_ideal_attack_angle_delta": 0.0,
+    "swings_per_pa_delta": -0.0656742255075823,
+    "takes_per_pa_delta": 0.0895847141751917,
+    "whiff_per_swing_delta": 0.0053533364385353,
+    "whiffs_per_pa_delta": -0.0127086779314026,
+    "pa": 364.0
+  }
+}

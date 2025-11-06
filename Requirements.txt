@@ -1,0 +1,14 @@
+Requirements:
+
+jupyterlab
+pandas
+numpy
+scikit-learn
+scipy
+xgboost
+shap
+matplotlib
+seaborn
+plotly
+pyarrow
+joblib
