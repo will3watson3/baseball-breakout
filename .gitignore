@@ -1,29 +1,58 @@
-# Jupyter Notebook checkpoints
+# === Jupyter Notebook ===
 .ipynb_checkpoints/
 .virtual_documents/
 
-# Python cache
+# === Python Cache ===
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Data and outputs
-data/
-outputs/
-*.csv
-*.parquet
-
-# Model artifacts
-artifacts/
-*.pkl
-*.json
-
-# Logs and temp files
-*.log
+# === Environment and Config ===
 .env
+*.log
+*.ini
+*.cfg
 
-# OS and editor junk
+# === IDE / OS files ===
 .DS_Store
 .vscode/
 .idea/
+
+# === Data ===
+# Ignore all large/raw data
+data/
+!data/README.md  # Allow a placeholder if you document data sources
+
+# === Outputs ===
+outputs/
+# Keep key, lightweight results for GitHub display
+!outputs/breakout_predictions_2026.csv
+!outputs/breakout_predictions_2026_explained.csv
+!outputs/breakout_summary_2026.csv
+
+# === Artifacts ===
+# Models, encoders, and training artifacts are ignored (can be large or binary)
+artifacts/
+*.pkl
+*.joblib
+*.json
+
+# === CSV and Parquet files ===
+# Ignore large tables everywhere except in /outputs/
+*.csv
+!outputs/*.csv
+*.parquet
+
+# === Plots / Figures ===
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# === Temporary Files ===
+*.tmp
+*.bak
+*.swp
+*.ipynb_convert
