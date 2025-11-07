@@ -1,5 +1,6 @@
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+.virtual_documents/
 
 # Python cache
 __pycache__/
@@ -7,13 +8,20 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Model artifacts
-artifacts/*.pkl
-artifacts/*.json
+# Data and outputs
+data/
+outputs/
+*.csv
+*.parquet
 
-# Output files
-outputs/*.csv
-outputs/*.parquet
+# Model artifacts
+artifacts/
+*.pkl
+*.json
+
+# Logs and temp files
+*.log
+.env
 
 # OS and editor junk
 .DS_Store
